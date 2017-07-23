@@ -1,0 +1,141 @@
+<!-- Entrees Page -->
+<html>
+<head>
+	<title>Aroy Thai Street Food</title>
+	<!-- Meta Tag For Responsive Design -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Link to Style Sheet -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- Link to Font Awesome for Icons -->
+	<link rel="stylesheet" href="favicons/css/font-awesome.min.css">
+	<!-- Link for Browser Tab Icon -->
+	<link rel="icon" href="imgs/browser-icon/aroy-browser-icon.jpg">
+</head>
+	<!-- All Conetent will go in here! -->
+<body>
+	<!-- Navigation will be in here! -->
+	<aside>
+		<nav>
+			<div>
+				<a href="index.html" class="color"><i class="fa fa-home fa-2x" aria-hidden="true"></i></a>
+			</div>
+			<div>
+				<a href="menu.html" class="color"><i class="fa fa-cutlery fa-2x" aria-hidden="true"></i></a>
+			</div>
+			<div>
+				<a href="cart.html" class="color"><i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i></a>
+			</div>
+		</nav>
+		<!-- The Aroy Logo is still inside the Aside at the bottom link to their Facebook Page! -->
+		<div class="nav-logo">
+			<a href="https://www.facebook.com/Aroy-Thai-251418521586076"><img src="imgs/nav-logo/aroy-nav-logo.png" alt="Aroy-Logo"></a>
+		</div>
+	</aside>
+	<!-- All Changing content will go in here! -->
+	<div id="main">
+		<header>
+			<div class="heading">
+				<h2 class="margin">ENTREES</h2>
+			</div>
+		</header>
+		<div id="options">
+			<div  id="roti-option" class="option">
+				<div class="option-image">
+					<img src="imgs/entrees/roti.jpg" alt="roti-entree-dish">
+				</div>
+				<div class="option-description">
+					<h4></a>Roti</h4>
+					<p>Classic roti bread pan-fried till crisp. Sereved with peanut satay sauce. (V)</p>
+				</div>
+			</div>
+			<div class="option">
+				<div class="option-image">
+					<img src="imgs/entrees/curry-puffs.jpg" alt="curry-puff-entree-option">
+				</div>
+				<div class="option-description">
+					<h4>Curry Puffs</h4>
+					<p>5 Pieces made with onion, potato and kumara. Sereved with sweet chilli sauce. (V)</p>
+				</div>
+			</div>
+			<!-- Roti Pop Up -->
+			<div class="pop-up">
+				<span><i class="fa fa-times fa-2x" aria-hidden="true"></i></span>
+				<h5>Roti</h5>
+				<div class="pop-up-image">
+					<img src="imgs/pop-up-images/entrees/pop-up-roti.jpg" alt="roti-entree-dish">
+				</div>
+				<div class="pop-up-description">
+					<p>Classic roti bread pan-fried till crisp. Sereved with peanut satay sauce. (V)</p>
+				</div>
+				<form id="pop-up-form" action="cart.html" method="POST" enctype="multipart/form-data">
+					<label for="quantity">QTY</label>
+					 <select name="quantity">
+					 	<option value="zero">Select</option>
+					 	<option value="one">1</option>
+					 	<option value="two">2</option>
+					 	<option value="three">3</option>
+					 	<option value="four">4</option>
+					 	<option value="five">5</option>
+					 	<option value="six">6</option>
+					 	<option value="seven">7</option>
+					 	<option value="eight">8</option>
+					 	<option value="nine">9</option>
+					 	<option value="ten">10</option>
+					 <div id="add-to-cart">
+						<input type="submit" id="add-to-cart-button" class="submit" value="ADD TO CART">
+					</div>
+				</form>
+			</div>
+			<div class="option">
+				<div class="option-image">
+					<img src="imgs/entrees/vegetable-spring-rolls.jpg" alt="vegetable-spring-roll-entree-option">
+				</div>
+				<div class="option-description">
+					<h4>Vegetable Spring Rolls</h4>
+					<p>5 Pieces stuffed with grated vegetables and glass noodles. Sereved with sweet chilli sauce. (V)</p>
+				</div>
+			</div>
+			<div class="option">
+				<div class="option-image">
+					<img src="imgs/entrees/prawn-spring-rolls.jpg" alt="prawn-spring-roll-entree-option">
+				</div>
+				<div class="option-description">
+					<h4>Prawn Spring Rolls</h4>
+					<p>5 Pieces that contain lightly seasoned prawns. Served with sweet chilli sauce.</p>
+				</div>
+			</div>
+			<div class="option">
+				<div class="option-image">
+					<img src="imgs/entrees/pork-sausages.jpg" alt="pork-sausage-entree-option">
+				</div>
+				<div class="option-description">
+					<h4>Pork Sausages</h4>
+					<p>Handmade Traditional Esarn-style sausages infused with lemongrass, ginger and garlic.</p>
+				</div>
+			</div>
+			<div class="option">
+				<div class="option-image">
+					<img src="imgs/entrees/grilled-pork-skewers.jpg" alt="grilled-pork-skewers-entree-option">
+				</div>
+				<div class="option-description">
+					<h4>Grilled Pork Skewers</h4>
+					<p>4 Grilled pork skewers. Served with sweet chilli sauce.</p>
+				</div>
+			</div>
+			<div class="option">
+				<div class="option-image">
+					<img src="imgs/entrees/grilled-chicken-skewers.jpg" alt="grilled-chicken-skewers-entree-option">
+				</div>
+				<div class="option-description">
+					<h4>Grilled Chicken Skewers</h4>
+					<p>4 Grilled chicken skewers. Served with peanut satay sauce.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+	<!-- Link to jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- Link to Javascript File -->
+	<script type="text/javascript" src="js/script.js"></script>
+</html>

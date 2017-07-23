@@ -1,0 +1,36 @@
+<!-- Home Page -->
+<html>
+<head>
+	<title>Aroy Thai Street Food</title>
+	<!-- Meta Tag For Responsive Design -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Link to Style Sheet -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- Link to Font Awesome -->
+	<link rel="stylesheet" href="favicons/css/font-awesome.min.css">
+	<!-- Link for Browser Tab Icon -->
+	<link rel="icon" href="imgs/browser-icon/aroy-browser-icon.jpg">
+</head>
+	<!-- All Conetent will go in here! -->
+<body>
+	<!-- All Changing content will go in here! -->
+	<div id="home-page">
+		<div id="logo-container" class="logo margin">
+			<img src="imgs/Aroy_Logo.jpg" alt="Aroy Logo">
+		</div>
+		<form id="from" action="menu.html" method="POST" enctype="multipart/form-data">
+			<label for="name"><h1>PLEASE PROVIDE A NAME FOR YOUR ORDER</h1></label>
+			<i class="fa fa-user" aria-hidden="true"></i>
+			<input type="text" name="name" id="name" style="font-style:italic" placeholder="Name for Order"><br>
+			<label for="table-number"><h1>PLEASE NOTE DOWN YOUR TABLE NUMBER</h1></label>
+			<i class="fa fa-calendar" aria-hidden="true"></i>
+			<input type="number" name="number" id="number" style="font-style:italic" placeholder="Table Number"><br>
+			<input type="submit" class="submit" value="ORDER">
+		</form>
+	</div>
+</body>
+	<!-- Link to jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- Link to Javascript File -->
+	<script type="text/javascript" src="js/script.js"></script>
+</html>
